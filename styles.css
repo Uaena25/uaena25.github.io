@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+}
+
+#mainNavbar {
+    background-color: rgba(91, 31, 148, 0);
+}
+
+#mainNavbar .nav-link {
+    color: aliceblue;
+    font-weight: 600;
+}
+
+#mainNavbar .nav-link:hover {
+    color: orange;
+}
+
+#home {
+    display: flex;
+    background: url("Images/space.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    height: 100vh;
+    font-family: "Nunito", sans-serif;
+}
+
+#home-content {
+    margin-left: 2rem;
+}
+
+#skills, #contact {
+    background-color:  rgb(16,18,19);
+    color:aliceblue;
+}
+
+#skills-content div {
+    margin: 0.5rem;
+    border-radius: 25px;
+    border: 3px solid rgb(216, 223, 230);
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+    background-color: rgb(32,37,38);
+    color: rgb(216, 223, 230);
+}
+
+#projects-content div {
+    padding: 1rem 0;
+}
+
+#contact-content div {
+    display: flex;
+    align-items: center;
+}
+
+#contact-content div i {
+    margin: 1rem;
+}
+
+#contact-content div a {
+    color:aliceblue;
+}
+
+#about, #projects{
+    background-color: aliceblue;
+    color: black;
+}
+
+#about, #skills, #projects, #contact {
+    padding: 5rem 0;
+}
+
+#home-content div:nth-of-type(1){
+    font-size: 48px;
+    color: aliceblue;
+    text-shadow: 0 0 6px blue, 0 0 10px red;
+}
+
+#home-content div:nth-of-type(2){
+    font-size: 96px;
+    color:gold;
+    text-shadow: 0 0 12px red, 0 0 20px orange;
+}
+
+#home-content div:nth-of-type(3){
+    font-size: 72px;
+    color: aliceblue;
+    text-shadow: 0 0 9px blue, 0 0 15px red;
+}
+
+#mainNavbar.navbarColor {
+    background-color: rgba(91, 31, 148, 1);
+    transition: background 1s;
+}
+
+#summon-sim img {
+    background-color: black;
+}
+
+.section-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.project-img {
+    float: right;
+}
+
+/* @media (max-width: 1200px) {
+    #skills-content div {
+        font-size: 0.5rem;
+    }
+} */
+
+/* @media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+} */
