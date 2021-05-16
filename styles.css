@@ -112,18 +112,16 @@
     float: right;
 }
 
-/* @media (max-width: 1200px) {
-    #skills-content div {
-        font-size: 0.5rem;
+@media (max-width: 600px) {
+    #home-content div:nth-of-type(1) {
+      font-size: 36px;
     }
-} */
 
-/* @media (max-width: 1200px) {
-    #headingGroup h1 {
-        font-weight: 100;
-        font-size: 3rem;
+    #home-content div:nth-of-type(2) {
+        font-size: 72px;
     }
-    .blurb h2 {
-        font-size: 2rem;
+
+    #home-content div:nth-of-type(3) {
+        font-size: 54px;
     }
-} */
+}
