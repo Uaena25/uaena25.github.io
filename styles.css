@@ -124,4 +124,8 @@
     #home-content div:nth-of-type(3) {
         font-size: 54px;
     }
+    
+    #projects-content div {
+        padding-left: 12px;
+    }
 }
